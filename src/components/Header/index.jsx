@@ -6,11 +6,11 @@ function Header(){
         <header>
 
             <div>
-                <NavLink url="/"> 
+                <NavLink url="./"> 
                      HOME
                 </NavLink>
 
-                <NavLink url="/contato">
+                <NavLink url="./contato">
                     CONTATO
                 </NavLink>
             </div>
