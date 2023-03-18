@@ -7,7 +7,7 @@ function BasePage(){
     return(
        <main>
            <Header/>
-            <Outlet/>
+                <Outlet/>
            <Footer/>
        </main>
     )

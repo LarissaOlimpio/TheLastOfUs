@@ -1,11 +1,12 @@
-import { NavLink } from "react-router-dom"
+import styles from './Header.module.css'
+import NavLink from "components/NavLink"
 import logo from "./logo.png"
 
 function Header(){
     return(
-        <header>
+        <header className={styles.header}>
 
-            <div>
+            <div className={styles.nav}>
                 <NavLink url="./"> 
                      HOME
                 </NavLink>
@@ -16,7 +17,7 @@ function Header(){
             </div>
 
             <div>
-                <img src={logo} alt="logo The Last Of Us" />
+                <img className={styles.logo} src={logo} alt="logo The Last Of Us" />
             </div>
         
         </header>

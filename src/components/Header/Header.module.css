@@ -1,0 +1,15 @@
+.header{
+    background-color: black;
+}
+.nav{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    
+}
+.logo{
+    max-width: 350px;
+    filter: invert(1);
+    margin-bottom: 80px;
+
+}

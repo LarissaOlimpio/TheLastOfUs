@@ -1,0 +1,12 @@
+.content{
+    background-color: aqua;
+}
+.button{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.aside{
+    background-color: blueviolet;
+}
