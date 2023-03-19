@@ -1,12 +1,42 @@
-.content{
-    background-color: aqua;
+.carouselImages{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: -1; /*para a imagem ficar embaixo das letras*/
 }
-.button{
-    background-color: brown;
+.imageActive, 
+.image{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /*para a imagem caber nas medidas sem perder a qualidade*/
+    animation: changeImage 0.7s;
+}
+.image{
+    display: none;
+}
+.content{
+    color: var(--write);
+}
+.carouselButton{
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.aside{
-    background-color: blueviolet;
+.button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-color: var(--write);
+}
+
+@keyframes changeImage{
+    from{
+        opacity: 0.85;
+    }
+    to{
+        opacity: 1;
+    }
 }

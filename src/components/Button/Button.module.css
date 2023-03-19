@@ -1,9 +1,0 @@
-.button{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: var(--write);
-    border: 2px solid transparent;
-    cursor: pointer;
-    border-color: var(--write);
-}
