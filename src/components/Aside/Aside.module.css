@@ -9,11 +9,17 @@
   min-height: 100vh;
 }
 .aside ul {
-  width: 50px;
+ 
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 .icon {
+
   filter: invert(1);
+  width: 30px;
+  transition: 0.3s ease-in-out;
+}
+.icon:hover{
+    transform: scale(1.2);
 }

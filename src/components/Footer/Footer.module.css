@@ -1,8 +1,7 @@
 .divFooter{
     display: flex;
     justify-content: flex-end;
-    margin-right: 5%;
-    margin-top: 5%;
+    margin: 5% 5% 0 0;
 }
 .footer{
     color: #e4e3e3b2;
