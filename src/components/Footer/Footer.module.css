@@ -4,6 +4,7 @@
     margin: 5% 5% 0 0;
 }
 .footer{
-    color: #e4e3e3b2;
+    color: var(--footerColor);
     font-size: 1rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }

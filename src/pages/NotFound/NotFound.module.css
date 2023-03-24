@@ -1,0 +1,20 @@
+.divErrorMensage{
+    color: var(--write);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    font-size: 1.5rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    
+}
+.background{
+    position: fixed;
+    top:0;
+    right:0;
+    background-image: url('../../../public/assets/tlou-3.jpg' );
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
