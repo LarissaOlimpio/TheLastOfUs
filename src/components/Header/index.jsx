@@ -16,7 +16,7 @@ function Header(){
                 </NavLink>
             </div>
 
-            <div>
+            <div className={styles.divLogo}>
                 <img className={styles.logo} src={logo} alt="logo The Last Of Us" />
             </div>
         

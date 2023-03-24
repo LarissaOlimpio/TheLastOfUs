@@ -1,6 +1,19 @@
-.aside{
-    width: 50px;
+.aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-.icon{
-    filter: invert(1);
+.aside ul {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.icon {
+  filter: invert(1);
 }
