@@ -15,6 +15,7 @@
     background-image: url('../../../public/assets/tlou-3.jpg' );
     width: 100%;
     min-height: 100vh;
-    object-fit: cover;
+    object-fit: cover;/*para a imagem caber nas medidas sem perder a qualidade*/
     z-index: -1;
+    background-repeat: no-repeat;
 }

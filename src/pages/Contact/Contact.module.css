@@ -1,0 +1,24 @@
+.background{
+    position: fixed;
+    top:0;
+    right: 0;
+    background-image: url("../../../public/assets/tlou-5.jpg");
+    z-index: -1;
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;/*para a imagem caber nas medidas sem perder a qualidade*/
+    background-repeat: no-repeat;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.title{   
+    color:var(--write);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+}

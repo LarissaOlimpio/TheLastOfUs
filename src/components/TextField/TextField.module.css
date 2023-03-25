@@ -1,0 +1,15 @@
+.textField{
+    color: var(--write);
+    margin: 24px 0;
+   
+    
+}
+.textField label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+.textField input{
+    min-height: 3rem;
+    min-width: 50%;
+}
