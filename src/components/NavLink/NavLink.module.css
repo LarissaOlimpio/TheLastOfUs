@@ -1,4 +1,10 @@
 .link{
     color: var(--write);
     text-shadow: black 0.1em 0.1em 0.2em;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}
+.link:hover{
+    color: var(--write);
 }

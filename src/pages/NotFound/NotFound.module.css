@@ -12,7 +12,7 @@
     position: fixed;
     top:0;
     right:0;
-    background-image: url('../../../public/assets/tlou-3.jpg' );
+    background-image: url('../../assets/tlou3.jpg' );
     width: 100%;
     min-height: 100vh;
     object-fit: cover;/*para a imagem caber nas medidas sem perder a qualidade*/

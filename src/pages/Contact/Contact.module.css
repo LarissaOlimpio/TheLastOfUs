@@ -2,7 +2,7 @@
     position: fixed;
     top:0;
     right: 0;
-    background-image: url("../../../public/assets/tlou-5.jpg");
+    background-image: url("../../assets/tlou5.jpg");
     z-index: -1;
     width: 100%;
     min-height: 100vh;

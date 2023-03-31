@@ -1,3 +1,6 @@
+.divHeader{
+    position: relative;
+}
 .nav{
     display: flex;
     gap:20px;
@@ -6,10 +9,12 @@
   
 }
 .divLogo{
+    
     max-width: 1280px;
     margin: 0 auto;
 }
 .logo{
+  
     max-width: 350px;
     filter: invert(1);
     margin-top: 10%;
