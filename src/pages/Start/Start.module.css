@@ -3,10 +3,15 @@
     top:0;
     left: 0;
     width: 100%;
-    object-fit: cover;
+    
     /*z-index: -1; para a imagem ficar embaixo das letras*/
 }
-
+.image{
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 5%;
+    object-fit: cover;
+}
 .content{
     position: relative;
     color: var(--write);
