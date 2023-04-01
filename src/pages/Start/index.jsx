@@ -22,7 +22,7 @@ function Start() {
 
             <Carousel fade>
             {slides.map((slide)=>(
-                 <Carousel.Item interval={1500}>
+                 <Carousel.Item interval={1500} key={slide}>
                     <img className={styles.image} src={slide} alt="imagem the last of us" />
                  </Carousel.Item> 
                   ))}
