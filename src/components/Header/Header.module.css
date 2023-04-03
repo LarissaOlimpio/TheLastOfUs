@@ -1,25 +1,19 @@
-.divHeader{
-    position: relative;
+.nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 2rem;
 }
-.nav{
-    display: flex;
-    gap:20px;
-    justify-content: center;
-    padding-top: 2rem;
-  
+.divLogo {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+  z-index: 10;
+  position: relative;
 }
-.divLogo{
-    
-    max-width: 1280px;
-    margin: 0 auto;
-    height: 100%;
-    z-index: 10;
-    position: relative;
-}
-.logo{
-  
-    max-width: 350px;
-    filter: invert(1);
-    margin-top: 10%;
-    margin-bottom: 8%;
+.logo {
+  max-width: 350px;
+  filter: invert(1);
+  margin-top: 10%;
+  margin-bottom: 8%;
 }

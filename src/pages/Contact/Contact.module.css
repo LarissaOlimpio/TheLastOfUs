@@ -1,28 +1,24 @@
-.background{
-    position: fixed;
-    top:0;
-    right: 0;
-    background-image: url("../../assets/tlou5.jpg");
-    z-index: -1;
-    width: 100%;
-    min-height: 100vh;
-    object-fit: cover;/*para a imagem caber nas medidas sem perder a qualidade*/
-    background-repeat: no-repeat;
-    
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-image: url("../../assets/tlou5.jpg");
+  z-index: -1;
+  width: 100%;
+  min-height: 100vh;
+  object-fit: cover; /*para a imagem caber nas medidas sem perder a qualidade*/
+  background-repeat: no-repeat;
 }
-.section{
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    
-    
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.form{
-    flex-direction: column;
-   
+.form {
+  flex-direction: column;
 }
-.title{   
-    color:var(--write);
-    text-shadow: black 0.1em 0.1em 0.2em;
-    text-align: center;
+.title {
+  color: var(--write);
+  text-shadow: black 0.1em 0.1em 0.2em;
+  text-align: center;
 }
