@@ -5,6 +5,7 @@ const TextField = ( props) => {
     props.modify(event.target.value);
   };
 
+
   return (
 
     <div className={styles.textField}>
@@ -13,11 +14,13 @@ const TextField = ( props) => {
       </label>
 
       <input
-        
-        required={props.required}
+
         placeholder={props.placeholder}
         value={props.value}
         onChange={changingInput}
+        type={props.type}
+        name={props.name}
+       
       />
     </div>
 

@@ -1,19 +1,18 @@
-.textField{
-    color: var(--write);
-    margin: 2rem 0;
-  
+.textField {
+  color: var(--write);
+  margin: 2rem 0;
 }
-.textField label{
-    display: block;
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
-    text-shadow: black 0.1em 0.1em 0.2em;
+.textField label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
-.textField input{
-    padding: 1rem;
-    min-height: 3rem;
-    min-width: 80%;
-    border-radius: 10px;
-    border: none;
-    background-color: var(--backgroundInput);
+.textField input {
+  padding: 1rem;
+  min-width: 100%;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: var(--backgroundInput);
 }

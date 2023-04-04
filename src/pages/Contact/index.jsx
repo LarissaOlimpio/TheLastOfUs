@@ -10,10 +10,12 @@ function Contact() {
   const [topic, setTopic] = useState("");
   const [mensage, setMensage] = useState("");
 
+  const submit = (data) => console.log(data);
+
   return (
     <section className={styles.section}>
       <div className={styles.background}></div>
-      <form className={styles.form}>
+      <form className={styles.form} onSubmit={submit}>
         <div className={styles.title}>
           <h1>Gostaria de entrar em contato conosco?</h1>
           <h2>
@@ -22,45 +24,52 @@ function Contact() {
           </h2>
         </div>
 
-        <TextField
-          label="Nome"
-          required={true}
-          placeholder="Digite seu nome"
-          value={name}
-          modify={(value) => setName(value)}
-        />
+        <div className={styles.textField}>
+          <TextField
+            name="name"
+            label="Nome"
+            placeholder="Digite seu nome"
+            value={name}
+            modify={(value) => setName(value)}
+            type="text"
+          />
 
-        <TextField
-          label="Data"
-          required
-          placeholder="Data"
-          value={date}
-          modify={(value) => setDate(value)}
-        />
+          <TextField
+            name="date"
+            label="Data"
+            placeholder="Data"
+            value={date}
+            modify={(value) => setDate(value)}
+            type="date"
+          />
 
-        <TextField
-          label="E-mail"
-          required
-          placeholder="Digite seu email: contato@email.com"
-          value={email}
-          modify={(value) => setEmail(value)}
-        />
+          <TextField
+            name="e-mail"
+            label="E-mail"
+            placeholder="Digite seu email: contato@email.com"
+            value={email}
+            modify={(value) => setEmail(value)}
+            type="text"
+          />
 
-        <TextField
-          label="assunto"
-          required
-          placeholder="Digite o assunto "
-          value={topic}
-          modify={(value) => setTopic(value)}
-        />
+          <TextField
+            name="topic"
+            label="assunto"
+            placeholder="Digite o assunto "
+            value={topic}
+            modify={(value) => setTopic(value)}
+            type="text"
+          />
 
-        <TextField
-          label="Mensagem"
-          required
-          placeholder="Digite sua mensagem"
-          value={mensage}
-          modify={(value) => setMensage(value)}
-        />
+          <TextField
+            name="mensage"
+            label="Mensagem"
+            placeholder="Digite sua mensagem"
+            value={mensage}
+            modify={(value) => setMensage(value)}
+            type="text"
+          />
+        </div>
 
         <div className={styles.button}>
           <Button>Enviar</Button>

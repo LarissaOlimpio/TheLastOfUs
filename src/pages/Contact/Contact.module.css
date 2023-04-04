@@ -14,11 +14,16 @@
   align-items: center;
   justify-content: center;
 }
-.form {
-  flex-direction: column;
-}
 .title {
   color: var(--write);
   text-shadow: black 0.1em 0.1em 0.2em;
   text-align: center;
 }
+.title h1{
+  font-size: 2rem;
+}
+.title h2{
+  font-size: 1.5rem;
+}
+
+
