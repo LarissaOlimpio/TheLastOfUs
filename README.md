@@ -3,11 +3,13 @@
 
 >Projeto em Desenvolvimento
 
-| :placard: Decodificador |     |
+| :placard: The Last Of Us |     |
 | -------------  | --- |
 | :sparkles: Nome        | **The Last Of Us**
 | :label: Tecnologias | JavaScript, HTML5, CSS3 e React
 | :rocket: URL         |https://larissaolimpio.github.io/Decodificador_de_texto_Challenge/
+
+![codificador](https://user-images.githubusercontent.com/50180854/200090307-f9036ae7-009e-4926-beb8-2bae65ca2943.png#vitrinedev)
 
 
 
