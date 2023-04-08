@@ -7,10 +7,9 @@
 | -------------  | --- |
 | :sparkles: Nome        | **The Last Of Us**
 | :label: Tecnologias | JavaScript, HTML5, CSS3 e React
-| :rocket: URL         |https://larissaolimpio.github.io/Decodificador_de_texto_Challenge/
+| :rocket: URL         |
 
-![codificador](https://user-images.githubusercontent.com/50180854/200090307-f9036ae7-009e-4926-beb8-2bae65ca2943.png#vitrinedev)
-
+![thelastofus](https://user-images.githubusercontent.com/50180854/230744955-f0d156c6-e808-4cd9-adc1-ec5b7df1f378.png#vitrinedev)
 
 
 
