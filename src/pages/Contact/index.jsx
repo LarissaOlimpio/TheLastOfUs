@@ -4,18 +4,34 @@ import { useState } from "react";
 import styles from "./Contact.module.css";
 
 function Contact() {
-  const [name, setName] = useState("");
-  const [date, setDate] = useState("");
-  const [email, setEmail] = useState("");
-  const [topic, setTopic] = useState("");
-  const [mensage, setMensage] = useState("");
+  const [form, setForm] = useState({
+    name: "",
+    date: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
 
-  const submit = (data) => console.log(data);
+  const handleChange = (e) => {
+    let newProp = form;
+    newProp[e.target.name] = e.target.value;
+    return setForm({ ...newProp });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(form);
+  };
 
   return (
     <section className={styles.section}>
       <div className={styles.background}></div>
-      <form className={styles.form} onSubmit={submit}>
+      <form
+        className={styles.form}
+        onSubmit={(e) => {
+          handleSubmit(e);
+        }}
+      >
         <div className={styles.title}>
           <h1>Gostaria de entrar em contato conosco?</h1>
           <h2>
@@ -29,45 +45,40 @@ function Contact() {
             name="name"
             label="Nome"
             placeholder="Digite seu nome"
-            value={name}
-            modify={(value) => setName(value)}
             type="text"
+            onBlur={(e) => handleChange(e)}
           />
 
           <TextField
             name="date"
             label="Data"
             placeholder="Data"
-            value={date}
-            modify={(value) => setDate(value)}
             type="date"
+            onBlur={(e) => handleChange(e)}
           />
 
           <TextField
-            name="e-mail"
+            name="email"
             label="E-mail"
             placeholder="Digite seu email: contato@email.com"
-            value={email}
-            modify={(value) => setEmail(value)}
             type="text"
+            onBlur={(e) => handleChange(e)}
           />
 
           <TextField
-            name="topic"
+            name="subject"
             label="assunto"
             placeholder="Digite o assunto "
-            value={topic}
-            modify={(value) => setTopic(value)}
             type="text"
+            onBlur={(e) => handleChange(e)}
           />
 
           <TextField
-            name="mensage"
+            name="message"
             label="Mensagem"
             placeholder="Digite sua mensagem"
-            value={mensage}
-            modify={(value) => setMensage(value)}
             type="text"
+            onBlur={(e) => handleChange(e)}
           />
         </div>
 

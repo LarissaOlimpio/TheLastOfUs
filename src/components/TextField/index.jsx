@@ -1,29 +1,18 @@
 import styles from "./TextField.module.css";
 
-const TextField = ( props) => {
-  const changingInput = (event) => {
-    props.modify(event.target.value);
-  };
-
-
+const TextField = (props) => {
   return (
-
     <div className={styles.textField}>
-
-      <label>{props.label}
-      </label>
+      <label>{props.label}</label>
 
       <input
-
+        name={props.name}
         placeholder={props.placeholder}
         value={props.value}
-        onChange={changingInput}
         type={props.type}
-        name={props.name}
-       
+        onBlur={props.onBlur}
       />
     </div>
-
-  )
-}
+  );
+};
 export default TextField;
