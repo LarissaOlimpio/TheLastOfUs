@@ -7,7 +7,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **The Last Of Us**
 | :label: Tecnologias | JavaScript, HTML5, CSS3 e React
-| :rocket: URL         | [the-last-of-2yieckpkk-larissaolimpio.vercel.app](https://vercel.com/larissaolimpio/the-last-of-us/7ZF1uzyonNq3gYcTp5ntKLN7VAL4)
+| :rocket: URL         | https://the-last-of-2yieckpkk-larissaolimpio.vercel.app/
 
 ![thelastofus](https://user-images.githubusercontent.com/50180854/230744955-f0d156c6-e808-4cd9-adc1-ec5b7df1f378.png#vitrinedev)
 
