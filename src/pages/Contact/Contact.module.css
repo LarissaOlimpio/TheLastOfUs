@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
 }
 .section {
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,11 +21,25 @@
   text-align: center;
 }
 .title h1{
-  font-size: 2rem;
-}
-.title h2{
   font-size: 1.5rem;
 }
-
-
+.title h2{
+  font-size: 1rem;
+}
+@media (min-width:425px) {
+  .title h1{
+    font-size: 1.8rem;
+  }
+  .title h2{
+    font-size: 1.2rem;
+  }
+}
+@media (min-width:768px) {
+  .title h1{
+    font-size: 2rem;
+  }
+  .title h2{
+    font-size: 1.5rem;
+  }
+}
 

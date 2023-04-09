@@ -5,14 +5,30 @@
 .textField label {
   display: block;
   margin-bottom: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 .textField input {
   padding: 1rem;
   min-width: 100%;
   border-radius: 10px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border: none;
   background-color: var(--backgroundInput);
+}
+@media (min-width:425px) {
+  .textField label{
+    font-size: 1.3rem;
+  }
+  .textField input{
+     font-size: 1.3rem;
+  }
+}
+@media (min-width:768px) {
+  .textField label{
+    font-size: 1.5rem;
+  }
+  .textField input{
+    font-size: 1.5rem;
+ }
 }
