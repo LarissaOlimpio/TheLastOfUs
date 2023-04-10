@@ -1,22 +1,41 @@
-
-.divErrorMensage{
-    color: var(--write);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10%;
-    font-size: 1.5rem;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    
-}
-.background{
+.background {
     position: fixed;
-    top:0;
-    right:0;
-    background-image: url('../../assets/tlou3.jpg' );
-    width: 100%;
+    top: 0;
+    right: 0;
+    background-image: url("../../assets/tlou3.jpg");
+    width: 1200px;
     min-height: 100vh;
-    object-fit: cover;/*para a imagem caber nas medidas sem perder a qualidade*/
+    object-fit: cover; /*para a imagem caber nas medidas sem perder a qualidade*/
     z-index: -1;
     background-repeat: no-repeat;
+  }
+.divErrorMenssage {
+  color: var(--write);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10%;
+  font-size: 1rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+@media (min-width:425px) {
+    .divErrorMenssage {
+        font-size: 1.2rem;
+      }
+}
+@media (min-width:768px) {
+    .divErrorMenssage {
+        font-size: 1.3rem;
+      }
+}
+@media (min-width: 1024px) {
+  .background {
+    width: 100%;
+  }
+  .divErrorMenssage {
+    font-size: 1.5rem;
+   
+  }
 }

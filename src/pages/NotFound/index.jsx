@@ -3,7 +3,7 @@ function NotFound() {
   return (
     <section >
       <div className={styles.background}></div>
-      <div className={styles.divErrorMensage}>
+      <div className={styles.divErrorMenssage}>
         <span>Erro 404</span>
         <h1>Página Não encontrada.</h1>
         <p>Tem certeza de que era isso que estava procurando?</p>
