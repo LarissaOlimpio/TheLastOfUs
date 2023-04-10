@@ -18,13 +18,11 @@
   margin-top: 10%;
   margin-bottom: 8%;
 }
-@media (min-width:425px) {
+@media (min-width: 425px) {
   .divLogo {
-    
     text-align: left;
-   
   }
-  .logo{
+  .logo {
     max-width: 350px;
   }
 }

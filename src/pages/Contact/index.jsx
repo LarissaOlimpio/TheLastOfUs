@@ -46,6 +46,7 @@ function Contact() {
             label="Nome"
             placeholder="Digite seu nome"
             type="text"
+            required
             onBlur={(e) => handleChange(e)}
           />
 
@@ -54,6 +55,7 @@ function Contact() {
             label="Data"
             placeholder="Data"
             type="date"
+            required={false}
             onBlur={(e) => handleChange(e)}
           />
 
@@ -61,7 +63,8 @@ function Contact() {
             name="email"
             label="E-mail"
             placeholder="Digite seu email: contato@email.com"
-            type="text"
+            type="email"
+            required
             onBlur={(e) => handleChange(e)}
           />
 
@@ -70,6 +73,7 @@ function Contact() {
             label="assunto"
             placeholder="Digite o assunto "
             type="text"
+            required
             onBlur={(e) => handleChange(e)}
           />
 
@@ -78,6 +82,7 @@ function Contact() {
             label="Mensagem"
             placeholder="Digite sua mensagem"
             type="text"
+            required
             onBlur={(e) => handleChange(e)}
           />
         </div>

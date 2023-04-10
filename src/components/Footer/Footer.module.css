@@ -1,15 +1,13 @@
-.divFooter{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    z-index: 10;
-    margin-top: 15%;
-    padding: 0 2rem 2rem 2rem;
-    
-   
+.divFooter {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  margin-top: 15%;
+  padding: 0 2rem 2rem 2rem;
 }
-.footer{
-    color: var(--footerColor);
-    font-size: 1.2rem;
-    text-shadow: black 0.1em 0.1em 0.2em;
+.footer {
+  color: var(--footerColor);
+  font-size: 1.2rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }

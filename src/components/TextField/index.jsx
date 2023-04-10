@@ -11,6 +11,7 @@ const TextField = (props) => {
         value={props.value}
         type={props.type}
         onBlur={props.onBlur}
+        required={props.required}
       />
     </div>
   );

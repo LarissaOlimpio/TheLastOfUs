@@ -16,19 +16,19 @@
   border: none;
   background-color: var(--backgroundInput);
 }
-@media (min-width:425px) {
-  .textField label{
+@media (min-width: 425px) {
+  .textField label {
     font-size: 1.3rem;
   }
-  .textField input{
-     font-size: 1.3rem;
+  .textField input {
+    font-size: 1.3rem;
   }
 }
-@media (min-width:768px) {
-  .textField label{
+@media (min-width: 768px) {
+  .textField label {
     font-size: 1.5rem;
   }
-  .textField input{
+  .textField input {
     font-size: 1.5rem;
- }
+  }
 }

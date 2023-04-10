@@ -8,7 +8,7 @@
 :root {
   --font: "Poppins", sans-serif;
   --write: #ffffff;
-  --grey:#918d8d;
+  --grey: #918d8d;
   --black: #0c0a0a;
   --footerColor: #ada9a9;
   --backgroundInput: rgb(216, 213, 213);
@@ -20,18 +20,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
   max-width: 1280px;
 }
-body::-webkit-scrollbar { /*corpo da barra*/
+body::-webkit-scrollbar {
+  /*corpo da barra*/
   width: 3px;
   height: 3px;
 }
-body::-webkit-scrollbar-track { /*trilha por onde a alça caminha*/
+body::-webkit-scrollbar-track {
+  /*trilha por onde a alça caminha*/
   background: linear-gradient(var(--black), var(--grey));
 }
-body::-webkit-scrollbar-thumb {/*a alça propriamente*/
+body::-webkit-scrollbar-thumb {
+  /*a alça propriamente*/
   background-color: var(--grey);
   border-radius: 20px;
 }
 
-body{
-   scrollbar-color: var(grey)  linear-gradient(var(--black), var(--grey));
+body {
+  scrollbar-color: var(grey) linear-gradient(var(--black), var(--grey));
 }

@@ -1,7 +1,7 @@
 import styles from "./NotFound.module.css";
 function NotFound() {
   return (
-    <section >
+    <section>
       <div className={styles.background}></div>
       <div className={styles.divErrorMenssage}>
         <span>Erro 404</span>
