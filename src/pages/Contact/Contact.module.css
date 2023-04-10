@@ -4,7 +4,7 @@
   right: 0;
   background-image: url("../../assets/tlou5.jpg");
   z-index: -1;
-  width: 100%;
+  width: 1200px;
   min-height: 100vh;
   object-fit: cover; /*para a imagem caber nas medidas sem perder a qualidade*/
   background-repeat: no-repeat;
@@ -42,4 +42,9 @@
     font-size: 1.5rem;
   }
 }
-
+@media (min-width:1024px) {
+  .background {
+    width: 100%;
+   
+  }
+}
