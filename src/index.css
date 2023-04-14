@@ -12,6 +12,7 @@
   --black: #0c0a0a;
   --footerColor: #ada9a9;
   --backgroundInput: rgb(216, 213, 213);
+  --span:rgb(235, 107, 107);
 }
 body {
   background: var(--black);

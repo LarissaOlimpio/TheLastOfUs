@@ -1,3 +1,6 @@
+.divButton{
+  padding: 1rem 0;
+}
 .button {
   width: 100px;
   height: 50px;
@@ -8,6 +11,7 @@
   color: var(--write);
   transition: 0.3s ease-in-out;
   text-shadow: black 0.1em 0.1em 0.2em;
+
 }
 .button:hover {
   transform: scale(1.2);

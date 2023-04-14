@@ -1,14 +1,15 @@
-.textField {
+.form {
   color: var(--write);
   margin: 2rem 0;
+  min-width: 40%;
 }
-.textField label {
+.form label {
   display: block;
   margin-bottom: 0.5rem;
   font-size: 1rem;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
-.textField input {
+.form input {
   padding: 1rem;
   min-width: 100%;
   border-radius: 10px;
@@ -16,19 +17,31 @@
   border: none;
   background-color: var(--backgroundInput);
 }
+.form span {
+  color: var(--span);
+  font-size: 0.8rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 @media (min-width: 425px) {
-  .textField label {
+  .form label {
     font-size: 1.3rem;
   }
-  .textField input {
+  .form input {
     font-size: 1.3rem;
+  }
+  .form span {
+    font-size: 1rem;
   }
 }
 @media (min-width: 768px) {
-  .textField label {
+  .form label {
     font-size: 1.5rem;
   }
-  .textField input {
+  .form input {
     font-size: 1.5rem;
+  }
+  .form span {
+    font-size: 1.2rem;
   }
 }
