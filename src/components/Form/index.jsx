@@ -16,7 +16,8 @@ const createUserFormSchema = z.object({
     }),
   email: z.string()
     .nonempty("Campo e-mail é obrigatório")
-    .email("Formato de e-mail inválido"),
+    .email("Formato de e-mail inválido")
+    .toLowerCase(),
   subject: z.string()
     .nonempty("Campo assunto é obrigatório"),
   message: z.string()
