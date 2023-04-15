@@ -8,7 +8,12 @@ const createUserFormSchema = z.object({
 
   name: z.string()
     .nonempty("Campo nome é obrigatório")
-    .min(3, "Escreva seu nome sem abreviação"),
+    .min(3, "Escreva seu nome sem abreviação")
+    .transform(name=>{
+      return name.trim().split(' ').map(word =>{
+        return word[0].toLocaleUpperCase().concat(word.substring(1))
+      }).join(' ')
+    }),
   email: z.string()
     .nonempty("Campo e-mail é obrigatório")
     .email("Formato de e-mail inválido"),
@@ -27,8 +32,8 @@ function Form() {
     resolver: zodResolver(createUserFormSchema),
   });
 
-  function createUser(e){
-    
+  function createUser(data){
+    console.log(data)
   }
   return (
     <form className={styles.form} onSubmit={handleSubmit(createUser)}>
