@@ -28,6 +28,7 @@ function Form() {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm({
     resolver: zodResolver(createUserFormSchema),
@@ -35,6 +36,7 @@ function Form() {
 
   function createUser(data){
     console.log(data)
+    reset()
   }
   return (
     <form className={styles.form} onSubmit={handleSubmit(createUser)}>
