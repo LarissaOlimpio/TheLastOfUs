@@ -1,6 +1,6 @@
 # Projeto The Last Of Us
 
-##Introdução
+## Introdução
 
 Esse é um projeto baseado nas lives do canal DevEmDobro onde podemos visualizar imagens da série The Last Of Us, diferente do projeto realizado nas lives, utilizei também a biblioteca React além das tecnologias base do FrontEnd como CSS3, HTML5 e JavaScript. Sendo assim, a animação foi feita com React Carousel,e a validação do formulário com React Hook Form usando o Zod.
 
