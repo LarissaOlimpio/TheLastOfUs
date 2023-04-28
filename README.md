@@ -1,4 +1,4 @@
-# Projeto The Last Of Us
+# The Last Of Us
 
 ## Introdução
 
