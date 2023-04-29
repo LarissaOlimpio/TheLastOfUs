@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Esse é um projeto baseado nas lives do canal DevEmDobro onde podemos visualizar imagens da série The Last Of Us, diferente do projeto realizado nas lives, utilizei também a biblioteca React além das tecnologias base do FrontEnd como CSS3, HTML5 e JavaScript. Sendo assim, a animação foi feita com React Carousel,e a validação do formulário com React Hook Form usando o Zod.
+Esse é um projeto baseado nas lives do canal DevEmDobro onde podemos visualizar imagens da série The Last Of Us. Diferente do projeto realizado nas lives, além de utilizar a biblioteca React junto das tecnologias base do FrontEnd como CSS3, HTML5 e JavaScript, também criei uma página de contato com um formulário e página de "não encontrado" caso ocorra um erro 404, por exemplo. Sendo assim, a animação foi feita com React Carousel,e a validação do formulário com React Hook Form usando o Zod. Além disso, utilizei rotas para a criação das páginas com React-Router-Dom.
 
 | :placard: The Last Of Us |     |
 | -------------  | --- |
