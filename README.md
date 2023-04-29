@@ -6,6 +6,7 @@ Esse é um projeto baseado nas lives do canal DevEmDobro onde podemos visualizar
 
 | :placard: The Last Of Us |     |
 | -------------  | --- |
+|:label: Tecnologias | React, JavaScript, Html5, CSS3 (tecnologias utilizadas)|
 | :rocket: URL         | the-last-of-us-eta.vercel.app
 
 ![thelastofus](https://user-images.githubusercontent.com/50180854/230744955-f0d156c6-e808-4cd9-adc1-ec5b7df1f378.png#vitrinedev)
@@ -21,3 +22,4 @@ Esse é um projeto baseado nas lives do canal DevEmDobro onde podemos visualizar
 4. Acessar [http://localhost:3000](http://localhost:3000) no navegador
 
 
+**Projeto criado com Create-React-App, para saber mais acesse a documentação: https://create-react-app.dev/docs/getting-started/**
